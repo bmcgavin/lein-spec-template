@@ -1,9 +1,9 @@
-(ns leiningen.new.spec
+(ns leiningen.new.speclj
   (:use [leiningen.new.templates :only [renderer name-to-path ->files]]))
 
-(def render (renderer "spec"))
+(def render (renderer "speclj"))
 
-(defn spec
+(defn speclj
   "FIXME: write documentation"
   [name]
   (let [data {:name name
